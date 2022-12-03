@@ -1,0 +1,13 @@
+[package]
+name = "u32err"
+version = "0.1.0"
+authors = ["David Shlemayev <david.shlemayev@gmail.com>"]
+description = "A neat error type for FFI functions (where non-zero = failure)"
+keywords = ["error", "error-handling", "failure", "no-std", "no-alloc"]
+categories = ["embedded", "no-std", "rust-patterns"]
+homepage = "https://github.com/Wazzaps/u32err/"
+repository = "https://github.com/Wazzaps/u32err/"
+license = "MIT"
+edition = "2021"
+
+[dependencies]
