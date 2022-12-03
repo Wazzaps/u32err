@@ -48,14 +48,14 @@ impl ErrCode {
     #[track_caller]
     pub fn unwrap(&self) {
         if self.is_err() {
-            panic!("Error: {:?}", self.0);
+            panic!("Error: {:?}", self);
         }
     }
 
     #[track_caller]
     pub fn expect(&self, msg: &str) {
         if self.is_err() {
-            panic!("[{:?}] {}", self.0, msg);
+            panic!("[{:?}] {}", self, msg);
         }
     }
 }

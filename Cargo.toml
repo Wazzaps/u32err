@@ -1,6 +1,6 @@
 [package]
 name = "u32err"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["David Shlemayev <david.shlemayev@gmail.com>"]
 description = "A neat error type for FFI functions (where non-zero = failure)"
 keywords = ["error", "error-handling", "failure", "no-std", "no-alloc"]
